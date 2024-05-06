@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/setup-go@v5
       - uses: actions/checkout@v4
-      - uses: golangci/golangci-lint-action@v4.0.0
+      - uses: golangci/golangci-lint-action@v5.3.0
         with:
           args: --timeout=5m
